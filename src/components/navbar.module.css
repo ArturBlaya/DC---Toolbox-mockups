@@ -43,17 +43,24 @@
   flex: initial;
   color: white;
   background-color: #0478E7;
+  position: relative;
 }
 .button:hover {
   background-color: #0054a2;
 }
 
 .dropdown {
-  display: none;
-  background-color: blue;
-}
-.buttons button:hover .dropdown {
   display: flex;
   flex-direction: column;
-  transition: all 500ms ease-out;
+  position: absolute;
+  margin-top: 1rem;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.4s;
+  align-items: flex-start;
 }
+.buttons button:hover .dropdown {
+  visibility: visible;
+  opacity: 1;
+}
+

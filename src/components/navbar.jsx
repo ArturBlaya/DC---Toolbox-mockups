@@ -11,9 +11,9 @@ export function Navbar() {
       <button className={styles.a}> 
         Services ▼
         <div className={styles.dropdown}>
-          <a className={styles.a} href="../public/index.html">Digital Analytics</a>
-          <a className={styles.a} href="../public/index.html">Business Intelligense</a>
-          <a className={styles.a} href="../public/index.html">Data Engineering</a>
+          <a className="" href="../public/index.html">Digital Analytics</a>
+          <a className="" href="../public/index.html">Business Intelligense</a>
+          <a className="" href="../public/index.html">Data Engineering</a>
         </div>
       </button>
       <a className={styles.a} href="../public/index.html">Toolbox</a>
