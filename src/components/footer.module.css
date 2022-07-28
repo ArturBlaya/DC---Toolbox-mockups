@@ -1,0 +1,25 @@
+.footer {
+  background-color: black;
+  color: #c6c6c6;
+  font-size: small;
+  min-height: 10rem;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+}
+
+.footer div {
+  width: 60%;
+  color: #c6c6c6;
+}
+
+.footer div hr {
+  border-color: #c6c6c6;
+}
+
+
+.footer div img {
+  height: 4rem;
+}
+

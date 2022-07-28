@@ -1,0 +1,59 @@
+.nav {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.nav > * {
+  background-color: white;
+}
+
+.img_div{
+  flex: none;
+}
+.clear_logo {
+  height: 7rem;  
+}
+
+.buttons {
+  display: flex;
+  flex: initial;  
+}
+
+.a , .button {
+  font-family: sans-serif;
+  border: none;
+  font-size: small;
+  text-decoration: none;
+  padding: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.a {
+  background-color: white;
+  color: black;
+}
+.a:hover {
+  color: #0478E7;
+}
+.button {
+  flex: initial;
+  color: white;
+  background-color: #0478E7;
+}
+.button:hover {
+  background-color: #0054a2;
+}
+
+.dropdown {
+  display: none;
+  background-color: blue;
+}
+.buttons button:hover .dropdown {
+  display: flex;
+  flex-direction: column;
+  transition: all 500ms ease-out;
+}

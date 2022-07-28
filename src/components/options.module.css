@@ -1,0 +1,28 @@
+.container {
+  background-color: white;
+  display: flex;
+  align-content: space-around;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.col {
+  width: 30rem;
+  padding: 5rem ;
+} 
+
+.p {
+  color: grey;
+}
+
+.img {
+  height: 6rem;
+}
+
+.container a {
+  text-decoration: none;
+  font-size: 4rem;
+  color: #0478E7;
+}

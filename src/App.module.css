@@ -1,0 +1,9 @@
+.container {
+  margin: 0%;
+  padding: 0%;
+  height: 100vh;
+  min-height: 100%;
+  background-color:white;
+  display: flex;
+  flex-direction: column;
+}
