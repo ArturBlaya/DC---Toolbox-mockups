@@ -1,4 +1,5 @@
 .container {
+  font-family: 'Montserrat', sans-serif;
   background-color: white;
   display: flex;
   align-content: space-around;
@@ -6,11 +7,11 @@
   flex-wrap: wrap;
   margin-top: auto;
   margin-bottom: auto;
+  padding: 5rem;
 }
 
 .col {
-  width: 30rem;
-  padding: 5rem ;
+  width: 25rem;
 } 
 
 .p {
@@ -25,4 +26,8 @@
   text-decoration: none;
   font-size: 4rem;
   color: #0478E7;
+  transition: margin-left 1s;
+}
+.a:hover {
+  margin-left: 1rem;
 }

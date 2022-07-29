@@ -6,61 +6,58 @@
   flex-wrap: wrap;
 }
 
-.nav > * {
-  background-color: white;
-}
-
-.img_div{
-  flex: none;
-}
 .clear_logo {
   height: 7rem;  
 }
 
-.buttons {
-  display: flex;
-  flex: initial;  
-}
-
-.a , .button {
-  font-family: sans-serif;
-  border: none;
-  font-size: small;
-  text-decoration: none;
-  padding: 1rem;
-  font-weight: bold;
-  cursor: pointer;
+.links {
+  display: flex;  
 }
 
 .a {
-  background-color: white;
+  font-family: 'Montserrat', sans-serif;
   color: black;
+  font-weight: 600;
+  font-size: small;
+  text-decoration: none;
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
 }
 .a:hover {
   color: #0478E7;
 }
-.button {
-  flex: initial;
-  color: white;
-  background-color: #0478E7;
-  position: relative;
-}
-.button:hover {
-  background-color: #0054a2;
-}
+
 
 .dropdown {
+  background-color: white;
   display: flex;
   flex-direction: column;
   position: absolute;
   margin-top: 1rem;
   visibility: hidden;
   opacity: 0;
-  transition: visibility 0s, opacity 0.4s;
+  transition: visibility 0.5s, opacity 0.5s;
   align-items: flex-start;
 }
-.buttons button:hover .dropdown {
+.a:hover > .dropdown {
   visibility: visible;
   opacity: 1;
+}
+
+
+.button {
+  color: white;
+  background-color: #0478E7;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: small;
+  text-decoration: none;
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #0054a2;
 }
 

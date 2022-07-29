@@ -1,0 +1,15 @@
+.container {
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 5rem;
+}
+
+.h2 {
+  color: #fe6100; 
+}
+
