@@ -3,7 +3,7 @@ import styles from './with_sdr.module.css';
 export function With_sdr() {
   return <div className={styles.container}>
     
-    
+
     <div className={styles.report_suite_options}>
       <select name="" id="">  
         <option value="">Report Suite Name: report_suite_id</option>
@@ -22,9 +22,9 @@ export function With_sdr() {
         <button className={styles.button}>props</button>
         <button className={styles.button}>events</button>
       </div>
-      <div>
-        <input type="text" name="" id="" value="caca"/>
-        <button>Push Changes</button>
+      <div className={styles.search_div}>
+        <input type="text" name="" id="" value="Search props …"/>
+        <button className={styles.button}>Push Changes</button>
       </div>
       <table>
         <tr>

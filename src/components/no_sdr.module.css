@@ -3,7 +3,7 @@
   padding: 0;
 }
 .container {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Comfortaa', cursive;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -30,7 +30,7 @@
 .button {
   color: white;
   background-color: #fe6100; 
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Comfortaa', cursive;
   font-weight: 600;
   font-size: small;
   text-decoration: none;
