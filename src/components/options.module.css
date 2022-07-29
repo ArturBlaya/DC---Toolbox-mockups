@@ -1,17 +1,15 @@
 .container {
   font-family: 'Montserrat', sans-serif;
-  background-color: white;
   display: flex;
   align-content: space-around;
   justify-content: space-around;
   flex-wrap: wrap;
-  margin-top: auto;
-  margin-bottom: auto;
-  padding: 5rem;
+  min-height: 80vh;
 }
 
 .col {
-  width: 25rem;
+  width: 500px;
+  padding: 2vh;
 } 
 
 .p {
@@ -19,12 +17,12 @@
 }
 
 .img {
-  height: 6rem;
+  height: 10vh;
 }
 
 .container a {
   text-decoration: none;
-  font-size: 4rem;
+  font-size: 7vh;
   color: #0478E7;
   transition: margin-left 1s;
 }

@@ -1,17 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 .container {
   font-family: 'Montserrat', sans-serif;
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  margin-top: auto;
-  margin-bottom: auto;
-  width: 100%;
-  
+  justify-content: center;
+  min-height: 80vh;
 }
 
-
+.h_div {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+}
 .h2 {
   color: #fe6100; 
 }
@@ -19,7 +23,7 @@
 .generate_report_div {
   display: flex;
   align-self: flex-start;
-  width: 90%;
+  width: 100%;
   padding-left: 5%;
   gap: 1rem;
 }
