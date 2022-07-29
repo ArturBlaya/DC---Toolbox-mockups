@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 80vh;
+}
+
+.h_div {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+}
+.h2 {
+  color: #fe6100; 
+}
+
+.generate_report_div {
+  display: flex;
+  align-self: flex-start;
+  padding-left: 5%;
+  gap: 1rem;
+}
+
+.button {
+  color: white;
+  background-color: #fe6100; 
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: small;
+  text-decoration: none;
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #ab4200; 
+}
