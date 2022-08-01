@@ -50,6 +50,7 @@
 }
 
 .button_clicked {
+  transition: background-color 1s;
   color: white;
   background-color: #fe6100; 
   font-family: 'Comfortaa', cursive;

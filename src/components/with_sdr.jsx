@@ -28,7 +28,6 @@ export function With_sdr() {
       document.getElementById("events").className = styles.button_clicked;
       setState(<Events/>)
     }
-    
   }
 
   
