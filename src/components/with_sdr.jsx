@@ -4,8 +4,6 @@ import EVars from './eVars';
 import Props from './props';
 import Events from './events';
 
-
-
 export function With_sdr() {
   const [state, setState] = useState("");
   

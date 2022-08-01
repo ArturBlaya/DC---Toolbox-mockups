@@ -1,10 +1,10 @@
 import React from 'react'
 import styles from './navbar.module.css';
 import clear_logo from '../img/data-crafts-clear-brand.png';
+import Login from './login';
 
 export function Navbar() {
-  return <nav className={styles.nav}>  
-    
+  return <nav className={styles.nav}>    
     <img src={clear_logo} alt="clear_logo" className={styles.clear_logo} /> 
     
     <div className={styles.links}>
@@ -19,13 +19,7 @@ export function Navbar() {
       </a>
       <a className={styles.a} href="../public/index.html">Toolbox</a>
       
-      <a className={styles.a}> 
-        Login ▼
-        <div className={styles.dropdown}>
-          <a className={styles.a} href="http://localhost:3030/oauth/google">Google</a>
-          <a className={styles.a} href="http://localhost:3030/oauth/github">Github</a>
-        </div>
-      </a>
+      <Login/>
       
     </div>
     <a className={styles.button} href="../public/index.html">Contact</a>
