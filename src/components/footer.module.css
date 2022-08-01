@@ -14,17 +14,23 @@
   align-items: center;
 }
 
-.footer div {
-  width: 60%;
-  color: #c6c6c6;
-}
-
-.footer div hr {
+.hr {
+  min-width: 60vw;
   border-color: #c6c6c6;
 }
 
-
-.footer div img {
+.img {
   height: 7vh;
 }
 
+.icons {
+  min-width: 60vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.brands {
+  display: flex;
+  gap: 10px;
+  font-size: 20px;
+}

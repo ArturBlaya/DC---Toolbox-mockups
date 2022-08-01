@@ -3,6 +3,8 @@ import styles from './navbar.module.css';
 import clear_logo from '../img/data-crafts-clear-brand.png';
 import Login from './login';
 
+
+
 export function Navbar() {
   return <nav className={styles.nav}>    
     <img src={clear_logo} alt="clear_logo" className={styles.clear_logo} /> 
