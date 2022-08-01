@@ -1,3 +1,4 @@
+import React from 'react'
 import styles from './navbar.module.css';
 import clear_logo from '../img/data-crafts-clear-brand.png';
 

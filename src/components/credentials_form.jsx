@@ -1,3 +1,4 @@
+import React from 'react'
 import styles from './credentials_form.module.css';
 
 export function Credentials_form() {
@@ -8,7 +9,7 @@ export function Credentials_form() {
       Go to the new service account, generate a keypair and download the private key (.key file) and the certificate (.pem file) 
       With that information, fill the following fields:
     </p>
-    <div className={styles.form_div}>
+    
       <form action="" className={styles.form}>
         <label>Client Id</label>
         <input type="text" name="Client Id" id="" />
@@ -25,7 +26,7 @@ export function Credentials_form() {
         <label>Certificate</label>
         <input type="text" name="" id="" />
       </form>
-    </div>
+    
   </div>
 }
 

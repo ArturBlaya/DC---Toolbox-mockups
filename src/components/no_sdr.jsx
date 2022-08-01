@@ -1,3 +1,4 @@
+import React from 'react'
 import styles from './no_sdr.module.css';
 
 export function No_sdr() {

@@ -56,24 +56,3 @@
   display: flex;
   gap: 1vw;
 }
-
-
-.scroll_div {
-  overflow: scroll;
-}
-
-table {
-  text-align: left;
-  border-collapse: collapse;
-}
-th {
-  background-color: #fe6100;
-  border: solid #fe6100;
-  color: white;
-  font-weight: 600;
-  padding: 1vh;
-}
-td {
-  border: solid #c6c6c6;
-  padding: 1vh;
-}

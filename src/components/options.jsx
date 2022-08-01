@@ -1,3 +1,5 @@
+import React from 'react'
+
 import styles from './options.module.css';
 
 import sdr from '../img/sdr.png';
